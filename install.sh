@@ -41,5 +41,5 @@ echo "✓ murmel installed → ${INSTALL_DIR}/${BINARY}"
 "${INSTALL_DIR}/${BINARY}" version 2>/dev/null || true
 echo
 echo "Server: https://aweb-production-e89d.up.railway.app  (override with AWEB_URL)"
-echo "Authenticate:  aw login        # or: export AW_TOKEN=<jwt from the web app>"
-echo "Then:          aw whoami"
+echo "Authenticate:  murmel login        # or: export AW_TOKEN=<jwt from the web app>"
+echo "Then:          murmel whoami"
